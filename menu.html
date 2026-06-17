@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Меню Urban Bean: кофе, завтраки, десерты и сезонные напитки.">
+  <title>Меню — Urban Bean</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к основному содержанию</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Основная навигация">
+      <a class="logo" href="index.html">Urban Bean</a>
+      <ul class="nav-list">
+        <li><a href="index.html#about">О нас</a></li>
+        <li><a href="menu.html" aria-current="page">Меню</a></li>
+        <li><a href="index.html#order">Предзаказ</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="section page-hero">
+      <div>
+        <p class="eyebrow">меню</p>
+        <h1>Кофе, завтраки и десерты на каждый день</h1>
+        <p class="lead">Страница меню помогает пользователю быстро выбрать напиток и перейти к форме предзаказа.</p>
+      </div>
+      <img class="menu-image" src="assets/menu-board.svg" alt="Иллюстрация меню Urban Bean с напитками и ценами">
+    </section>
+
+    <section class="section menu-grid" aria-label="Позиции меню">
+      <article class="menu-card"><span>Кофе</span><h2>Капучино</h2><p>Эспрессо, молоко, плотная молочная пена.</p><strong>240 ₽</strong></article>
+      <article class="menu-card"><span>Кофе</span><h2>Флэт уайт</h2><p>Двойной эспрессо и тонкая текстура молока.</p><strong>260 ₽</strong></article>
+      <article class="menu-card"><span>Сезонное</span><h2>Раф ванильный</h2><p>Сливочный напиток с мягкой ванильной нотой.</p><strong>290 ₽</strong></article>
+      <article class="menu-card"><span>Завтрак</span><h2>Круассан</h2><p>Сливочное тесто, подаётся тёплым.</p><strong>210 ₽</strong></article>
+      <article class="menu-card"><span>Десерт</span><h2>Чизкейк</h2><p>Классический десерт к фильтр-кофе.</p><strong>320 ₽</strong></article>
+      <article class="menu-card"><span>Матча</span><h2>Матча латте</h2><p>Японский чай матча и молоко на выбор.</p><strong>310 ₽</strong></article>
+    </section>
+
+    <section class="section cta-block">
+      <h2>Уже выбрал напиток?</h2>
+      <p>Оставь предзаказ на главной странице, и бариста подготовит его к указанному времени.</p>
+      <a class="button" href="index.html#order">Перейти к форме</a>
+    </section>
+  </main>
+
+  <footer id="contacts" class="site-footer">
+    <p>© 2026 Urban Bean. Учебный проект.</p>
+    <p>Москва, ул. Кофейная, 7 • +7 900 123-45-67</p>
+  </footer>
+</body>
+</html>

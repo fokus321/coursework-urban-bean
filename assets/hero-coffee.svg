@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Интерьер кофейни Urban Bean</title>
+  <desc id="desc">Тёплая иллюстрация кофейной чашки, зерна и уютного городского окна</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f7efe2"/>
+      <stop offset="1" stop-color="#c98f55"/>
+    </linearGradient>
+    <radialGradient id="cup" cx="50%" cy="30%" r="70%">
+      <stop stop-color="#fff7ea"/>
+      <stop offset="1" stop-color="#d2a06b"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="930" cy="140" r="170" fill="#fff5df" opacity=".55"/>
+  <rect x="80" y="90" width="380" height="520" rx="34" fill="#402718" opacity=".88"/>
+  <rect x="118" y="130" width="304" height="210" rx="22" fill="#f3d7ac"/>
+  <path d="M118 396h304v150H118z" fill="#1f130c" opacity=".58"/>
+  <path d="M180 184h180M180 232h120M180 280h160" stroke="#402718" stroke-width="18" stroke-linecap="round"/>
+  <ellipse cx="710" cy="610" rx="300" ry="72" fill="#4b2d1b" opacity=".26"/>
+  <path d="M493 382h333c0 145-57 235-166 235S493 527 493 382z" fill="url(#cup)" stroke="#5a3421" stroke-width="18"/>
+  <path d="M823 420c102-15 118 120 15 134" fill="none" stroke="#5a3421" stroke-width="34" stroke-linecap="round"/>
+  <path d="M565 325c-28-44 28-72 0-119M660 325c-30-52 44-78 12-132M748 325c-22-42 24-63 2-105" stroke="#6c3d22" stroke-width="16" stroke-linecap="round" opacity=".65"/>
+  <g fill="#2b180f" opacity=".9">
+    <ellipse cx="968" cy="448" rx="42" ry="23" transform="rotate(-24 968 448)"/>
+    <path d="M939 463c23-7 43-20 58-38" fill="none" stroke="#f2d4aa" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="1012" cy="552" rx="42" ry="23" transform="rotate(31 1012 552)"/>
+    <path d="M985 534c18 18 37 29 60 34" fill="none" stroke="#f2d4aa" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

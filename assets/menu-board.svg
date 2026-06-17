@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+<title id="title">Кофейное меню</title><desc id="desc">Иллюстрация меню с напитками и десертами</desc>
+<rect width="1000" height="700" fill="#22140d"/>
+<rect x="70" y="55" width="860" height="590" rx="34" fill="#f6ead9"/>
+<text x="120" y="130" font-family="Georgia,serif" font-size="58" fill="#3a2215" font-weight="700">Urban Bean menu</text>
+<g font-family="Arial,sans-serif" font-size="30" fill="#4b2d1b">
+<text x="130" y="220">Эспрессо</text><text x="770" y="220">170 ₽</text>
+<text x="130" y="285">Капучино</text><text x="770" y="285">240 ₽</text>
+<text x="130" y="350">Флэт уайт</text><text x="770" y="350">260 ₽</text>
+<text x="130" y="415">Раф ванильный</text><text x="770" y="415">290 ₽</text>
+<text x="130" y="480">Круассан</text><text x="770" y="480">210 ₽</text>
+<text x="130" y="545">Чизкейк</text><text x="770" y="545">320 ₽</text>
+</g>
+<g stroke="#b98554" stroke-width="5" opacity=".55"><line x1="130" y1="240" x2="860" y2="240"/><line x1="130" y1="305" x2="860" y2="305"/><line x1="130" y1="370" x2="860" y2="370"/><line x1="130" y1="435" x2="860" y2="435"/><line x1="130" y1="500" x2="860" y2="500"/></g>
+</svg>
