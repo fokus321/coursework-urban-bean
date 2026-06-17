@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Urban Bean — городская кофейня с авторским кофе, завтраками и предзаказом напитков.">
+  <title>Urban Bean — городская кофейня</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к основному содержанию</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Основная навигация">
+      <a class="logo" href="index.html" aria-label="Urban Bean, главная">Urban Bean</a>
+      <ul class="nav-list">
+        <li><a href="#about">О нас</a></li>
+        <li><a href="menu.html">Меню</a></li>
+        <li><a href="#order">Предзаказ</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">кофе • завтраки • городские встречи</p>
+        <h1>Кофейня, в которую удобно зайти до пар, работы или прогулки</h1>
+        <p class="lead">Urban Bean готовит specialty-кофе, свежие завтраки и десерты. На сайте можно посмотреть меню и оставить предзаказ на удобное время.</p>
+        <div class="hero-actions">
+          <a class="button" href="#order">Оставить предзаказ</a>
+          <a class="button secondary" href="menu.html">Посмотреть меню</a>
+        </div>
+      </div>
+      <img class="hero-image" src="assets/hero-coffee.svg" alt="Иллюстрация уютной кофейни Urban Bean с чашкой кофе">
+    </section>
+
+    <section class="ticker" aria-label="Преимущества кофейни">
+      <div class="ticker-track">
+        <span>Свежая обжарка</span><span>Зерно арабика</span><span>Завтраки весь день</span><span>Предзаказ напитков</span><span>Pet-friendly</span>
+        <span>Свежая обжарка</span><span>Зерно арабика</span><span>Завтраки весь день</span><span>Предзаказ напитков</span><span>Pet-friendly</span>
+      </div>
+    </section>
+
+    <section id="about" class="section two-column">
+      <div>
+        <p class="eyebrow">о проекте</p>
+        <h2>Urban Bean объединяет быстрый формат и атмосферу локальной кофейни</h2>
+      </div>
+      <div class="text-card">
+        <p>Сайт ориентирован на студентов, офисных сотрудников и жителей района, которым важно быстро узнать меню, часы работы и оставить предзаказ без лишних действий.</p>
+        <p>В интерфейсе используются крупные заголовки, контрастные кнопки, понятная навигация и адаптивная сетка для десктопа, планшета и смартфона.</p>
+      </div>
+    </section>
+
+    <section class="section cards-section" aria-labelledby="services-title">
+      <div class="section-heading">
+        <p class="eyebrow">что есть на сайте</p>
+        <h2 id="services-title">Всё, что нужно гостю кофейни</h2>
+      </div>
+      <div class="cards">
+        <article class="card"><h3>Меню</h3><p>Отдельная страница с напитками, десертами и завтраками.</p></article>
+        <article class="card"><h3>Предзаказ</h3><p>Форма собирает имя, телефон, напиток и время самовывоза.</p></article>
+        <article class="card"><h3>Мультимедиа</h3><p>Иллюстрации, видео о кофе и плавные CSS-анимации.</p></article>
+      </div>
+    </section>
+
+    <section class="section media-section" aria-labelledby="video-title">
+      <div>
+        <p class="eyebrow">мультимедиа</p>
+        <h2 id="video-title">Видео помогает показать культуру кофе</h2>
+        <p>Встроенный ролик дополняет визуальный образ проекта и закрывает требование по мультимедийному контенту.</p>
+      </div>
+      <div class="video-frame">
+        <iframe src="https://www.youtube.com/embed/An6LvWQuj_8" title="Видео о приготовлении кофе" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="order" class="section order-section" aria-labelledby="order-title">
+      <div>
+        <p class="eyebrow">форма</p>
+        <h2 id="order-title">Оставить предзаказ</h2>
+        <p>После отправки заполненной формы пользователь переходит на отдельную страницу подтверждения.</p>
+      </div>
+      <form class="order-form" action="success.html" method="get">
+        <label for="name">Имя</label>
+        <input id="name" name="name" type="text" required placeholder="Юлдаш">
+        <label for="phone">Телефон</label>
+        <input id="phone" name="phone" type="tel" required placeholder="+7 900 000-00-00">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required placeholder="mail@example.com">
+        <label for="drink">Что приготовить?</label>
+        <textarea id="drink" name="drink" rows="4" placeholder="Например: капучино 300 мл и круассан"></textarea>
+        <button class="button" type="submit">Отправить предзаказ</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="contacts" class="site-footer">
+    <p>© 2026 Urban Bean. Учебный проект по дисциплине «Основы веб-технологий».</p>
+    <p>Москва, ул. Кофейная, 7 • +7 900 123-45-67</p>
+  </footer>
+</body>
+</html>
